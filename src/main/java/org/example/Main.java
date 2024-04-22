@@ -50,7 +50,7 @@ public class Main {
 
     public static void setup() {
         UiAutomator2Options uiAuto = new UiAutomator2Options()
-                .setApp("/Users/michelacosta/Documents/ContactManager.apk")
+                .setApp("./ContactManager.apk")
                 .setDeviceName("Pixel 7 Pro API 29")
                 .setPlatformName(String.valueOf(Platform.ANDROID))
                 .setPlatformVersion("10");
